@@ -1,0 +1,333 @@
+body{
+    background-color: #134AB3;
+    margin: 35px 50px;
+    padding: 0;
+    border: 0;
+    color: #FFFFFF;
+    font-family: 'Arial Narrow', 'Franklin Gothic Medium', Arial, sans-serif;
+    font-size: 1.3em;
+}
+
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+button, .button{
+    background-color: #7AAEDE;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 20px;
+    padding:10px 30px;
+    font-weight: bold;
+    font-size: large;
+}
+/* nav section */
+.navsec{
+    position: fixed;
+    width: 99%;
+    background-color: #134AB3;
+    padding: 0;
+    margin-top: 10px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #4369B3;
+    border-radius: 5em;
+    align-items: center;
+    width: 92%;
+    padding: 10px;
+
+}
+.brand{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+}
+.brand h1{
+    font-size: 1.6em;
+    margin:0 0 0 10px;
+}
+.navlinks{
+    display: flex;
+    justify-content: space-between;
+}
+.navlinks a{
+    margin:0 50px;
+}
+
+.navbtn{
+    margin-right: 10px;
+}
+
+
+
+/* home */
+#home{
+    display: flex;
+    justify-content: space-between;
+}
+b{
+    color: #051749;
+}
+.home{
+    background-image: url(/imgs/homebg.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: -35px 0;
+}
+.homeTxt{
+    padding-top: 110px;
+    font-size: 2.3em;
+    /* word-spacing: 0.1em; */
+    width: 100%;
+}
+.homeTxt h4{
+    margin-bottom: -50px;
+}
+.homeTxt h1{
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+.homeTxt p{
+    font-size: 0.54em;
+    font-weight: lighter;
+}
+
+/* end of home */
+
+
+/* service */
+#service{
+    background-image: url(/imgs/servicebg.svg);
+    background-position: center;
+    background-size: cover;
+    min-height: 90vh;
+    text-align: center;
+    /* width: 150%; */
+    border: -400px;
+}
+#service h3{
+    color: #051749;
+    font-weight: bolder;
+    font-size: xx-large;
+    letter-spacing: 0.2ch;
+    padding-top: 45px;
+}
+#service h1{
+    margin-top:-20px;
+    font-size: 2.5em;
+}
+.serv{
+    display: flex;
+    justify-content: space-between;
+}
+.serv img{
+    width: 80px;
+    height: 80px;
+}
+.serv .app, .web{
+    margin:-70px 40px;
+}
+.serv .ui{
+    margin-top: 80px;
+}
+
+/* end of service */
+
+/* about */
+#about{
+    display: flex;
+    padding: 50px 0;
+    align-items: center;
+    margin-top: -30px;
+}
+#about img{
+    max-height: 100vh;
+}
+.abtText h3{
+    color: #051749;
+    font-size: xx-large;
+    margin-bottom: -30px;
+}
+#about .abtText{
+    margin: 50px;
+    font-size: 2em;
+}
+.abtText h1{
+    letter-spacing: 0.1em;
+    margin-bottom: -10px;
+}
+.abtText p{
+    font-size: 0.6em;
+}
+
+
+/* end of about */
+
+/* get started */
+#getStarted{
+    background-color: #4369B3;
+    display: flex;
+    padding: 10px 40px;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 65vh;
+}
+#getStarted h3{
+    color: #051749;
+    font-size: xx-large;
+    margin-bottom: -30px;
+}
+
+.getStdText h1{
+    font-size: 2.9em;
+    margin-bottom: -10px;
+    word-spacing: 0.1em;
+}
+.getStdText p{
+    font-size: 1.2em;
+}
+
+
+/* end of get started */
+
+/* team */
+#team{
+    background-image: url(/imgs/Artboard\ –\ 2.svg);
+    background-size: cover;
+    background-position: center;
+    min-height: 70vh;
+}
+#team h1{
+    font-size: 3em;
+    text-align: center;
+}
+
+/* End of team */
+/* question */
+.question{
+    background-image: url(/imgs/question.svg);
+    background-position: center;
+    background-size: cover;
+    min-height: 70vh;
+    padding-left:30%;
+    
+}
+#email{
+    border-radius: 50px;
+    width: 40%;
+    min-height: 5vh;
+    padding: 5px;
+    font-size: 1em;
+    color: #051749;
+}
+#question h1{
+    padding-top: 100px;
+    font-size: 3em;
+}
+
+
+/* end of question */
+
+/* footer */
+#footer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+.col1{
+    width: ;
+}
+.col2{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.col2 ul{
+    list-style: none;
+    line-height: 1.7em;
+}
+
+.brand2{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.brand2 h1{
+    font-size: 1.6em;
+    margin:0 0 0 10px;
+}
+
+.footer-links a{
+    align-content: center;
+    align-items: center;
+    color: #051749;
+    margin: 5px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form{
+    width: 50%;
+}
+.form #email{
+    width: 70%;
+    min-height: 4vh;
+    font-size: 1em;
+}
+form .button {
+    cursor: pointer;
+}
+/* end of footer */
+@media(max-width:990px) {
+    body{
+        margin: 3px;
+        font-size: 0.7em;
+    }
+    .navbar{
+        width: 100%;
+        margin-top:30px;
+    }
+    .brand h1{
+        font-size: 1em;
+        margin-left: 3px;
+    }
+    .brand img{
+        width: 25px;
+    }
+    .navlinks{
+        display: none;
+    }
+    .navbtn{
+        display: none;
+    }
+    .home{
+        min-height: 110vh;
+        background-position: center;
+    }
+    .homeTxt{
+        font-size: 1.5em;
+        padding-top: 100px;
+        text-align: center;
+    }
+    #about .aboutImg, .getStdImg{
+        display: none;
+    }
+    #service .serv{
+        display: block;
+    }
+    #footer{
+        display: block;
+    }
+    .footer{
+        display: block;
+    }
+}

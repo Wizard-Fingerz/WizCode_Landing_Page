@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="893" viewBox="0 0 1920 893">
+  <defs>
+    <clipPath id="clip-Web_1920_3">
+      <rect width="1920" height="893"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_3" data-name="Web 1920 – 3" clip-path="url(#clip-Web_1920_3)">
+    <rect width="1920" height="893" fill="#134ab3"/>
+    <g id="Group_28" data-name="Group 28" transform="translate(0 -972.105)" opacity="0.8">
+      <g id="Group_29" data-name="Group 29" transform="translate(0 972.105)">
+        <g id="Path_16" data-name="Path 16" transform="translate(0 0)" fill="#f5f5f5" opacity="0.35" style="mix-blend-mode: lighten;isolation: isolate">
+          <path d="M 1919.5 892.5 L 0.5 892.5 L 0.5 0.500030517578125 L 1919.5 0.500030517578125 L 1919.5 892.5 Z" stroke="none"/>
+          <path d="M 1 1.00006103515625 L 1 892 L 1919 892 L 1919 1.00006103515625 L 1 1.00006103515625 M 0 6.103515625e-05 L 1920 6.103515625e-05 L 1920 893 L 0 893 L 0 6.103515625e-05 Z" stroke="none" fill="#707070"/>
+        </g>
+        <path id="Path_3" data-name="Path 3" d="M481.648,1049l399.589,495.1L1473.485,1049" transform="translate(-47 -1049)" fill="none" stroke="#f5f5f5" stroke-width="1"/>
+        <path id="Path_1" data-name="Path 1" d="M481.648,1049l500.345,591.319L1723.577,1049" transform="translate(-189.648 -1044.448)" fill="none" stroke="#f5f5f5" stroke-width="1" opacity="0.35"/>
+        <path id="Path_2" data-name="Path 2" d="M481.648,1049l451.475,557.62L1602.273,1049" transform="translate(25.352 -1044.448)" fill="none" stroke="#f5f5f5" stroke-width="1" opacity="0.35"/>
+        <path id="Path_4" data-name="Path 4" d="M481.648,1049l391.759,468.448L1454.049,1049" transform="translate(-124.521 -1044.448)" fill="none" stroke="#f5f5f5" stroke-width="1" opacity="0.35"/>
+        <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="11" cy="10.584" rx="11" ry="10.584" transform="translate(435 97.672)" fill="#f5f5f5" opacity="0.36"/>
+        <ellipse id="Ellipse_2" data-name="Ellipse 2" cx="11" cy="10.584" rx="11" ry="10.584" transform="translate(485 159.161)" fill="#051749" opacity="0.36"/>
+        <ellipse id="Ellipse_3" data-name="Ellipse 3" cx="11" cy="10.584" rx="11" ry="10.584" transform="translate(485 240.811)" fill="#f5f5f5" opacity="0.36"/>
+        <ellipse id="Ellipse_4" data-name="Ellipse 4" cx="11" cy="10.584" rx="11" ry="10.584" transform="translate(585 97.672)" fill="#051749" opacity="0.36"/>
+        <ellipse id="Ellipse_5" data-name="Ellipse 5" cx="11" cy="11.088" rx="11" ry="11.088" transform="translate(585 189.402)" fill="#f5f5f5" opacity="0.36"/>
+        <ellipse id="Ellipse_6" data-name="Ellipse 6" cx="11" cy="11.088" rx="11" ry="11.088" transform="translate(1075 189.402)" fill="#f5f5f5" opacity="0.36"/>
+        <ellipse id="Ellipse_7" data-name="Ellipse 7" cx="11" cy="10.584" rx="11" ry="10.584" transform="translate(1255 128.921)" fill="#051749" opacity="0.36"/>
+        <ellipse id="Ellipse_8" data-name="Ellipse 8" cx="11" cy="10.584" rx="11" ry="10.584" transform="translate(1245 210.57)" fill="#f5f5f5" opacity="0.36"/>
+        <ellipse id="Ellipse_9" data-name="Ellipse 9" cx="11" cy="11.088" rx="11" ry="11.088" transform="translate(1362 203.514)" fill="#051749" opacity="0.36"/>
+        <ellipse id="Ellipse_10" data-name="Ellipse 10" cx="11" cy="10.584" rx="11" ry="10.584" transform="translate(1205 339.597)" fill="#f5f5f5" opacity="0.36"/>
+      </g>
+    </g>
+  </g>
+</svg>
