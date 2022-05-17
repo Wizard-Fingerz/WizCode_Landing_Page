@@ -1,3 +1,5 @@
+{% load static %}
+
 body{
     background-color: #134AB3;
     margin: 35px 50px;
@@ -72,7 +74,7 @@ b{
     color: #051749;
 }
 .home{
-    background-image: url(/imgs/homebg.svg);
+    /* background-image: url("/static/imgs/Homebg.svg"); */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -102,7 +104,7 @@ b{
 
 /* service */
 #service{
-    background-image: url(/imgs/servicebg.svg);
+    /* background-image: url(/imgs/servicebg.svg); */
     background-position: center;
     background-size: cover;
     min-height: 90vh;
@@ -197,7 +199,7 @@ b{
 
 /* team */
 #team{
-    background-image: url(/imgs/Artboard\ –\ 2.svg);
+    /* background-image: url(/imgs/Artboard\ –\ 2.svg); */
     background-size: cover;
     background-position: center;
     min-height: 70vh;
@@ -210,7 +212,7 @@ b{
 /* End of team */
 /* question */
 .question{
-    background-image: url(/imgs/question.svg);
+    /* background-image: url(/imgs/question.svg); */
     background-position: center;
     background-size: cover;
     min-height: 70vh;
