@@ -1,5 +1,3 @@
-{% load static %}
-
 body{
     background-color: #134AB3;
     margin: 35px 50px;
@@ -74,7 +72,7 @@ b{
     color: #051749;
 }
 .home{
-    /* background-image: url("/static/imgs/Homebg.svg"); */
+    background-image: url("/imgs/Homebg.svg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -104,7 +102,7 @@ b{
 
 /* service */
 #service{
-    /* background-image: url(/imgs/servicebg.svg); */
+    background-image: url(/imgs/servicebg.svg);
     background-position: center;
     background-size: cover;
     min-height: 90vh;
@@ -199,7 +197,7 @@ b{
 
 /* team */
 #team{
-    /* background-image: url(/imgs/Artboard\ –\ 2.svg); */
+    background-image: url(/imgs/Artboard\ –\ 2.svg);
     background-size: cover;
     background-position: center;
     min-height: 70vh;
@@ -212,12 +210,11 @@ b{
 /* End of team */
 /* question */
 .question{
-    /* background-image: url(/imgs/question.svg); */
+    background-image: url(/imgs/question.svg);
     background-position: center;
     background-size: cover;
     min-height: 70vh;
     padding-left:30%;
-    
 }
 #email{
     border-radius: 50px;
@@ -242,9 +239,6 @@ b{
     justify-content: space-between;
     align-items: baseline;
 
-}
-.col1{
-    width: ;
 }
 .col2{
     width: 70%;
@@ -312,8 +306,21 @@ form .button {
         display: none;
     }
     .home{
-        min-height: 110vh;
+        min-height: 60vh;
         background-position: center;
+        color:#FFFFFF;
+    }
+    .homeTxt h1{
+        margin-top: 50px;
+        margin-bottom: 30px;
+        color: #FFFFFF;
+    }
+
+    b{
+        color: #FFFFFF;
+    }
+    .app, .web, .ui{
+        margin: 0px;
     }
     .homeTxt{
         font-size: 1.5em;
@@ -324,12 +331,67 @@ form .button {
         display: none;
     }
     #service .serv{
-        display: block;
+        /* padding-top: 5000px; */
+        display: inline;
+        background-position: cover;
+    }
+    #service{
+        min-height: 125vh;
+    }
+    #service h1{
+        margin-bottom: 100px;
     }
     #footer{
         display: block;
     }
     .footer{
         display: block;
+    }
+    /* about */
+    #about{
+        display: block;
+    }
+    #about .abtText{
+        margin: 10px;
+        text-align: center;
+    }
+
+    /* end of about */
+    /* getStarted */
+    #getStarted{
+        display: block;
+        text-align: center;
+        padding: 10px 20px;
+        min-height: auto;
+    }
+
+    /* end of getStarted */
+    /* question */
+    #question{
+        text-align: center;
+    }
+
+    #email{
+        width: 80%;
+        font-size: 1em;
+        margin: 10px;
+    }
+    .question{
+        padding: 20px;
+        min-height: 0vh;
+    }
+    #question h1 {
+        padding-top: 10px;
+    }
+
+    /* end of question */
+
+    /* footer */
+    #footer{
+        padding: 10px;
+    }
+
+    .form{
+        width: 120%;
     }
 }
