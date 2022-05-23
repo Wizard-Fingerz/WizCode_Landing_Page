@@ -12,6 +12,7 @@ a{
     color: #FFFFFF;
     text-decoration: none;
 }
+
 button, .button{
     background-color: #7AAEDE;
     color: #FFFFFF;
@@ -35,9 +36,13 @@ button, .button{
     background-color: #4369B3;
     border-radius: 5em;
     align-items: center;
-    width: 92%;
+    width: 94.5%;
     padding: 10px;
 
+}
+
+.navbar .menu-btn{
+    display: none;
 }
 .brand{
     display: flex;
@@ -395,7 +400,83 @@ form .button {
         width: 120%;
     }
 }
-@media(width: 768px){
+@media(max-width:1100px) {
+    .navbar .navlinks{
+        display: none;
+        position: absolute;
+        top: 109px;
+        left: 0px;
+        background-color: #051749;
+        border-bottom: 4px solid #134AB3;
+        width: 91.5%;
+        padding: 20px;
+        line-height: 1.5em;
+        margin: 5px;
+    }
+    .navlinks div:hover{
+        background-color: #134AB3;
+    }
+    .navlinks div{
+        width: 100%;
+    }
+    .navbar .navlinks div a{
+        width: 94.5px;
+        height: 20px;
+        align-items: center;
+        margin: 0px;
+        border: 1px solid #7AAEDE ;
+    }
+    .navbar .menu-icon{
+        cursor: pointer;
+        float: right;
+        padding: 28px 20px;
+        position: relative;
+        user-select: none;
+        display: block;
+    }
+    .navbar .menu-icon .nav-icon{
+        background-color: #FFFFFF;
+        display: block;
+        height: 2px;
+        position: relative;
+        transition: background 0.2s ease-out;
+        width: 18px;
+    }
+    .navbar .menu-icon .nav-icon:before,
+    .navbar .menu-icon .nav-icon:after{
+        background: #FFFFFF;
+        content: '';
+        display: block;
+        height: 100%;
+        position: absolute;
+        transition: all ease-out 0.2s;
+        width: 100%;
+    }
+    .navbar .menu-icon .nav-icon:before{
+        top: 5px;
+    }
+    .navbar .menu-icon .nav-icon:after{
+        top: -5px;
+    }
+    .navbar .menu-btn:checked ~ .menu-icon .nav-icon{
+        background: transparent;
+    }
+    .navbar .menu-btn:checked ~ .menu-icon .nav-icon:before{
+        transform: rotate(-45deg);
+        top: 0;
+    }
+    .navbar .menu-btn:checked ~ .menu-icon .nav-icon:after{
+        transform: rotate(45deg);
+        top: 0;
+    }
+    .navbar .menu-btn{
+        display: none;
+    }
+    .navbar .menu-btn:checked ~ .navlinks{
+        display: block;
+    }
+}
+@media(max-width: 768px){
     body{
         margin: 10px;
         font-size: 1.5em;
@@ -419,7 +500,7 @@ form .button {
         width: 90%;
     }
 }
-@media(width: 1010px){
+/* @media(width: 1010px){
     body{
         margin: 30px;
     }
@@ -458,4 +539,4 @@ form .button {
         min-height: 50vh;
     }
 
-}
+} */
