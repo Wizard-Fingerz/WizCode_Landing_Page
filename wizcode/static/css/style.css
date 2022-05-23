@@ -1,6 +1,6 @@
 body{
     background-color: #134AB3;
-    margin: 35px 50px;
+    margin: 35px;
     padding: 0;
     border: 0;
     color: #FFFFFF;
@@ -289,7 +289,7 @@ form .button {
         font-size: 0.7em;
     }
     .navbar{
-        width: 100%;
+        width: 80%;
         margin-top:30px;
     }
     .brand h1{
@@ -394,4 +394,68 @@ form .button {
     .form{
         width: 120%;
     }
+}
+@media(min-width: 725px){
+    body{
+        margin: 10px;
+        font-size: 1.5em;
+    }
+    .brand{
+        font-size: 1em;
+        padding: 10px;
+    }
+    .navbar{
+        width: 81.5%;
+        font-size: 1em;
+    }
+    .homeTxt{
+        font-size: 1.5em;
+        margin-bottom: 20px;
+    }
+    .col2 div{
+        margin: 20px 30px;
+    }
+    .form{
+        width: 90%;
+    }
+}
+@media(min-width: 1010px){
+    body{
+        margin: 30px;
+    }
+    .home{
+        min-height: 50vh;
+    }
+    .homeTxt{
+        margin-top: 20px;
+    }
+    .navbar{
+        width: 94.5%;
+    }
+    .navlinks a{
+        padding: -10px;
+    }
+    .navlinks{
+        margin: -9px;
+    }
+    .brand{
+        margin-right: -12px;
+    }
+    #question input[type="email"]{
+        width: 65%;
+    }
+    input[type="submit"]{
+        padding: 22px;
+        border-radius: 50px;
+        width: 25%;
+    }
+    #service{
+        min-height: 60vh;
+    }
+    .question{
+        background-position: center;
+        background-size: cover;
+        min-height: 50vh;
+    }
+
 }
