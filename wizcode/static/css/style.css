@@ -395,7 +395,7 @@ form .button {
         width: 120%;
     }
 }
-@media(min-width: 725px){
+@media(width: 768px){
     body{
         margin: 10px;
         font-size: 1.5em;
@@ -405,7 +405,7 @@ form .button {
         padding: 10px;
     }
     .navbar{
-        width: 81.5%;
+        width: 96%;
         font-size: 1em;
     }
     .homeTxt{
@@ -419,7 +419,7 @@ form .button {
         width: 90%;
     }
 }
-@media(min-width: 1010px){
+@media(width: 1010px){
     body{
         margin: 30px;
     }
