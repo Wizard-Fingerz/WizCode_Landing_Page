@@ -11,9 +11,10 @@
 </head>
 <!--  -->
 <body>
-    <section class="home" style="background-image: url('{% static 'imgs/Homebg.svg' %}');" >
+    <section class="home">
         <div class="navsec">
         <div class="navbar">
+            <!-- <div class="brand"><img src="{% static 'imgs/NoPath - Copy.svg' %}" alt="" width="40px" height="40px"><h1>WizCode</h1></div> -->
             <div class="brand"><img src="{% static 'imgs/NoPath - Copy.svg' %}" alt="" width="40px" height="40px"><h1>WizCode</h1></div>
             <!-- menubtn -->
             <input type="checkbox" name="" id="menu-btn" class="menu-btn">
@@ -30,7 +31,7 @@
             </div>
         </div>
         </div>
-        <div id="home">
+        <div id="home" style="background-image: url({% static 'imgs/Homebg.svg' %}); background-position:center; background-size:cover;">
             <div class="homeTxt">
                 <h4>We Are</h4>
                 <h1><b>Wiz</b>ards of <b>Code</b></h1>
@@ -141,9 +142,9 @@
                 <h1>Contacts</h1>
                 <ul>
                     <li><a href=""><b>Phone:</b> +234 7067 6021 93</a></li>
-                    <li><a href=""><b>Email:</b> wizcode@gmail.com                    </a></li>
-                    <li><a href=""><b>Office:</b> No 06, Adigun, Muslim,<br>
-                        Ibadan.</a></li>
+                    <li><a href=""><b>Email:</b> wizcode@gmail.com</a></li>
+                    <li><b>Office:</b><address>No 06, Adigun, Muslim,<br>
+                        Ibadan.</address></li>
                 </ul>
             </div>
         </div>

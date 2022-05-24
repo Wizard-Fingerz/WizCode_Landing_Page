@@ -77,10 +77,10 @@ b{
     color: #051749;
 }
 .home{
-    background-image: url("/imgs/Homebg.svg");
-    background-position: center;
+    /* background-image: url("/imgs/Homebg.svg"); */
+    /* background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     min-height: 100vh;
     margin: -35px 0;
 }
@@ -107,7 +107,7 @@ b{
 
 /* service */
 #service{
-    background-image: url(/imgs/servicebg.svg);
+    /* background-image: url(/imgs/servicebg.svg); */
     background-position: center;
     background-size: cover;
     min-height: 90vh;
@@ -202,7 +202,7 @@ b{
 
 /* team */
 #team{
-    background-image: url(/imgs/Artboard\ –\ 2.svg);
+    /* background-image: url(/imgs/Artboard\ –\ 2.svg); */
     background-size: cover;
     background-position: center;
     min-height: 70vh;
@@ -215,7 +215,7 @@ b{
 /* End of team */
 /* question */
 .question{
-    background-image: url(/imgs/question.svg);
+    /* background-image: url(/imgs/question.svg); */
     background-position: center;
     background-size: cover;
     min-height: 70vh;
