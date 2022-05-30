@@ -77,10 +77,10 @@ b{
     color: #051749;
 }
 .home{
-    /* background-image: url("/imgs/Homebg.svg"); */
-    /* background-position: center;
+    background-image: url("/imgs/Homebg.svg");
+    background-position: center;
     background-size: cover;
-    background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     min-height: 100vh;
     margin: -35px 0;
 }
@@ -107,7 +107,7 @@ b{
 
 /* service */
 #service{
-    /* background-image: url(/imgs/servicebg.svg); */
+    background-image: url(/imgs/servicebg.svg);
     background-position: center;
     background-size: cover;
     min-height: 90vh;
@@ -202,7 +202,7 @@ b{
 
 /* team */
 #team{
-    /* background-image: url(/imgs/Artboard\ –\ 2.svg); */
+    background-image: url(/imgs/Artboard\ –\ 2.svg);
     background-size: cover;
     background-position: center;
     min-height: 70vh;
@@ -215,7 +215,7 @@ b{
 /* End of team */
 /* question */
 .question{
-    /* background-image: url(/imgs/question.svg); */
+    background-image: url(/imgs/question.svg);
     background-position: center;
     background-size: cover;
     min-height: 70vh;
@@ -288,118 +288,6 @@ form .button {
     cursor: pointer;
 }
 /* end of footer */
-@media(max-width:990px) {
-    body{
-        margin: 3px;
-        font-size: 0.7em;
-    }
-    .navbar{
-        /* width: 80%; */
-        margin-top:30px;
-    }
-    .brand h1{
-        font-size: 1em;
-        margin-left: 3px;
-    }
-    .brand img{
-        width: 25px;
-    }
-    .navlinks{
-        display: none;
-    }
-    .navbtn{
-        display: none;
-    }
-    .home{
-        min-height: 60vh;
-        background-position: center;
-        color:#FFFFFF;
-    }
-    .homeTxt h1{
-        margin-top: 50px;
-        margin-bottom: 30px;
-        color: #FFFFFF;
-    }
-
-    b{
-        color: #FFFFFF;
-    }
-    .app, .web, .ui{
-        margin: 0px;
-    }
-    .homeTxt{
-        font-size: 1.5em;
-        padding-top: 100px;
-        text-align: center;
-    }
-    #about .aboutImg, .getStdImg{
-        display: none;
-    }
-    #service .serv{
-        /* padding-top: 5000px; */
-        display: inline;
-        background-position: cover;
-    }
-    #service{
-        min-height: 125vh;
-    }
-    #service h1{
-        margin-bottom: 100px;
-    }
-    #footer{
-        display: block;
-    }
-    .footer{
-        display: block;
-    }
-    /* about */
-    #about{
-        display: block;
-    }
-    #about .abtText{
-        margin: 10px;
-        text-align: center;
-    }
-
-    /* end of about */
-    /* getStarted */
-    #getStarted{
-        display: block;
-        text-align: center;
-        padding: 10px 20px;
-        min-height: auto;
-    }
-
-    /* end of getStarted */
-    /* question */
-    #question{
-        text-align: center;
-    }
-
-    #email{
-        width: 80%;
-        font-size: 1em;
-        margin: 10px;
-    }
-    .question{
-        padding: 20px;
-        min-height: 0vh;
-    }
-    #question h1 {
-        padding-top: 10px;
-    }
-
-    /* end of question */
-
-    /* footer */
-    #footer{
-        padding: 10px;
-    }
-
-    .form{
-        width: 120%;
-    }
-}
 @media(max-width:1100px) {
     .navbar .navlinks{
         display: none;
@@ -424,7 +312,8 @@ form .button {
         height: 20px;
         align-items: center;
         margin: 0px;
-        border: 1px solid #7AAEDE ;
+        color: #7AAEDE;
+        /* border: 1px solid #7AAEDE ; */
     }
     .navbar .menu-icon{
         cursor: pointer;
@@ -475,11 +364,9 @@ form .button {
     .navbar .menu-btn:checked ~ .navlinks{
         display: block;
     }
-}
-@media(max-width: 768px){
     body{
         margin: 10px;
-        font-size: 1.5em;
+        font-size: 100%;
     }
     .brand{
         font-size: 1em;
@@ -499,44 +386,136 @@ form .button {
     .form{
         width: 90%;
     }
+    @media(max-width:990px) {
+        body{
+            margin: 3px;
+            font-size: 0.7em;
+        }
+        .navbar{
+            width: 87.5%;
+            margin-top:30px;
+        }
+        .navsec{
+            width: 90%;
+        }
+        .brand h1{
+            font-size: 1em;
+            margin-left: 3px;
+        }
+        .brand img{
+            width: 25px;
+        }
+        .navlinks{
+            display: none;
+        }
+        .navbtn{
+            display: none;
+        }
+        .home{
+            min-height: 60vh;
+            background-position: center;
+            color:#FFFFFF;
+        }
+        .homeTxt h1{
+            margin-top: 50px;
+            margin-bottom: 30px;
+            color: #FFFFFF;
+        }
+    
+        b{
+            color: #FFFFFF;
+        }
+        .app, .web, .ui{
+            margin: 0px;
+        }
+        .homeTxt{
+            font-size: 1.5em;
+            padding-top: 130px;
+            text-align: center;
+        }
+        #about .aboutImg, .getStdImg{
+            display: none;
+        }
+        #service .serv{
+            /* padding-top: 5000px; */
+            display: inline;
+            background-position: cover;
+        }
+        #service{
+            min-height: 125vh;
+        }
+        #service h1{
+            margin-bottom: 100px;
+        }
+        #footer{
+            display: block;
+        }
+        .footer{
+            display: block;
+        }
+        /* about */
+        #about{
+            display: block;
+        }
+        #about .abtText{
+            margin: 10px;
+            text-align: center;
+        }
+    
+        /* end of about */
+        /* getStarted */
+        #getStarted{
+            display: block;
+            text-align: center;
+            padding: 10px 20px;
+            min-height: auto;
+        }
+    
+        /* end of getStarted */
+        /* question */
+        #question{
+            text-align: center;
+        }
+    
+        #email{
+            width: 80%;
+            font-size: 1em;
+            margin: 10px;
+        }
+        .question{
+            padding: 20px;
+            min-height: 0vh;
+        }
+        #question h1 {
+            padding-top: 10px;
+        }
+    
+        /* end of question */
+    
+        /* footer */
+        #footer{
+            padding: 10px;
+        }
+        .form{
+            width: 120%;
+        }
+    }
+    @media (max-width: 425px) {
+        .col2{
+            display: block;
+            margin: 0;
+        }
+        .col2 div{
+            margin: 0;
+        }
+        .navbar{
+            padding: 1px;
+        }
+        .navbar .navlinks{
+            width: 68%;
+            top: 90px;
+        }
+        
+    }
 }
-/* @media(width: 1010px){
-    body{
-        margin: 30px;
-    }
-    .home{
-        min-height: 50vh;
-    }
-    .homeTxt{
-        margin-top: 20px;
-    }
-    .navbar{
-        width: 94.5%;
-    }
-    .navlinks a{
-        padding: -10px;
-    }
-    .navlinks{
-        margin: -9px;
-    }
-    .brand{
-        margin-right: -12px;
-    }
-    #question input[type="email"]{
-        width: 65%;
-    }
-    input[type="submit"]{
-        padding: 22px;
-        border-radius: 50px;
-        width: 25%;
-    }
-    #service{
-        min-height: 60vh;
-    }
-    .question{
-        background-position: center;
-        background-size: cover;
-        min-height: 50vh;
-    }
 
-} */

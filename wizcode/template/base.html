@@ -1,0 +1,98 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <title>
+        {% block title %}
+
+        {% endblock %}
+    </title>
+</head>
+<!--  -->
+<body>
+    <div class="navsec">
+        <div class="navbar">
+            <!-- <div class="brand"><img src="{% static 'imgs/NoPath - Copy.svg' %}" alt="" width="40px" height="40px"><h1>WizCode</h1></div> -->
+            <div class="brand"><img src="{% static 'imgs/NoPath - Copy.svg' %}" alt="" width="40px" height="40px"><h1>WizCode</h1></div>
+            <!-- menubtn -->
+            <input type="checkbox" name="" id="menu-btn" class="menu-btn">
+            <label class="menu-icon" for="menu-btn">
+                <span class="nav-icon"></span>
+            </label>
+            <!-- end of menubtn -->
+            <div class="navlinks">
+                <div><a href="#home">Home</a></div>
+                <div><a href="#service">Service</a></div>
+                <div><a href="#getStarted">Projects</a></div>
+                <div><a href="#footer">Contact</a></div>
+                <div><a href="">Login</a></div>
+            </div>
+            <!-- <div class="navbtn">
+                <button><a href="">Login</a></button>
+            </div> -->
+        </div>
+    </div>
+    {% block content %}
+    
+    {% endblock %}
+<section id="footer">
+    <div class="col1">
+        <div class="brand2"><img src="{% static 'imgs/NoPath - Copy.svg' %}" alt="" width="40px" height="40px"><h1>WizCode</h1></div>
+        <p>We are creative, we are extraordinary, we<br>
+            are result-oriented and we are driven by<br>
+            innovation.</p>
+    </div>
+    <div class="col2">
+        <div class="subcol2">
+            <h1>Company</h1>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Our Team</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Projects</a></li>
+            </ul>
+        </div>
+        <div>
+            <h1>Support</h1>
+            <ul>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Terms of Use</a></li>
+                <li><a href="">FAQs</a></li>
+                <li><a href="">Sitemaps</a></li>
+            </ul>
+        </div>
+        <div>
+            <h1>Contacts</h1>
+            <ul>
+                <li><a href=""><b>Phone:</b> +234 7067 6021 93</a></li>
+                <li><a href=""><b>Email:</b> wizcode@gmail.com</a></li>
+                <li><b>Office:</b><address>No 06, Adigun, Muslim,<br>
+                    Ibadan.</address></li>
+            </ul>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="footer">
+        <div class="footer-links">
+            <a href=""><img src="{% static 'imgs/facebook-f.svg' %}" alt="" width="15px" height="15px"> Facebook</a>
+            <a href=""><img src="{% static 'imgs/twitter.svg' %}" alt="" width="15px" height="15px"> Twitter</a>
+            <a href=""><img src="{% static 'imgs/instagram.svg' %}" alt="" width="15px" height="15px"> Instagram</a>
+            <a href=""><img src="{% static 'imgs/linkedin-in.svg' %}" alt="" width="15px" height="15px"> LinkedIn</a>
+        </div>
+        <div class="form">
+            <form action="" method="get">
+                <input type="email" name="" id="email" placeholder=" Enter Email">
+                <input type="submit" value="Subscribe" class="button">
+            </form>
+        </div>
+    </div>
+    <p align="center"><b>Copyright &copy; 2022</b> wizCode. <b>All right reserved</b></p>
+</footer>
+</body>
+</html>
