@@ -23,7 +23,7 @@ def register(request):
             return redirect("landingpage:index")
         messages.error(request, "Unsuccessful Registration. Invalid Information.")
     form = RegistrationForm()
-    return render(request, 'registration.html', context={"register_form":form})
+    return render(request, 'registration.html')
     
 def login(request):
     return render(request, 'login.html')

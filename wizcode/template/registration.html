@@ -7,42 +7,51 @@ WizCode-Registration Page
 {% endblock%}
 
 
-<!-- pip install django-crispy-form
-add cripsy_form to the list of installed apps in the settings
-load crispy_forms_tags in the HTML
-add the |crispy or |as_crispy_field
-
--->
 {% block content%}
 {%load crispy_forms_tags %}
-    <div class="" align="center" style="width:100%; padding-top:100px; text-align:center;">
-        <h1 align="center">Registration</h1>
-        <form action="register" method="POST" style="text-align: center;">{% csrf_token%}
+
+    <div class="regForm">
+        <h1>Register</h1>
+        <form action="register" method="POST" >
+            {% csrf_token%}
             {{ register_form|crispy }}
-            <!-- <div>
-                <label for="firstName">First name</label><br>
-                <input type="text" name="firstName" id="email"><br><br>
-                <label for="lastName">Last name</label><br>
-                <input type="text" name="lastName" id="email"><br><br>
-                <label for="email">Email</label><br>
-                <input type="email" name="email" id="email"><br><br>
-                <label for="gitHub">GitHub Portfolio</label><br>
-                <input type="text" name="gitHub" id="email"><br><br>
-                <label for="userName">User Name</label><br>
-                <input type="text" name="userName" id="email"><br><br>
-                <label for="password">Password</label><br>
-                <input type="password" name="password" id="email"><br><br>
-                <label for="confirmPwd">Confirm Password</label><br>
-                <input type="password" name="confirmPwd" id="email"><br><br><br>
-            </div> -->
-            <input type="submit" value="Register" id="" class="button">
-            
+            <button type="submit" class="btn btn-primary">Submit</button>
         </form>
-        <p>If you alreaady have an account, <a href="" style="color:#051749;">Login</a> instead.</p>
+        <p class="text-center">If you already have an account, <a href="" style="color:#051749;">Login</a> instead.</p>
     </div>
     <style>
-        input{
-            text-align: center;
+        .regForm{
+            background-image:url({% static 'imgs/Homebg.svg' %});
+            font-size: 0.75em;
+            padding-left: 30px;
+            background-size:cover;
+            background-position:center;
+            line-height: 1.5em;
+        }
+        .regForm h1{
+            padding-top: 109px;
+            font-weight: 650;
+            font-size: 2.5em;
+        }
+        .regForm label{
+            font-size: 1.5em;
+            font-weight: 600;
+        }
+        .regForm input{
+            display: block;
+            width: 60%;
+            min-height: 4vh;
+            font-size: 1em;
+        }
+        .navbar{
+            width:90%;
+            margin-top:10px;
+        }
+        .navsec{
+            width:80%;
         }
     </style>
+
+
 {% endblock %}
+

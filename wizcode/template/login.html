@@ -1,5 +1,21 @@
 {% extends 'base.html'%}
-{% load static %}
-{% block title %}
+{%load static%}
+
+
+{% block title%}
 WizCode-Login Page
+{% endblock%}
+
+
+{% block content%}
+{%load crispy_forms_tags %}
+    <div style="padding-top: 100px;">
+        <h1 align="center">Login</h1>
+        <form action="register" method="POST">
+            {% csrf_token%}
+            {{ login_form|crispy }}
+            <input type="submit" value="Login" id="" class="button">
+        </form>
+        <p>Don't have an account, <a href="" style="color:#051749;">Create an account</a></p>
+    </div>
 {% endblock %}
