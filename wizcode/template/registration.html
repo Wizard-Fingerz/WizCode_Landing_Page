@@ -1,33 +1,48 @@
 {% extends 'base.html'%}
 {%load static%}
-{% block content %}
-<div class="" align="center" style="width:100%; padding-top:100px; text-align:center;">
-    <h1 align="center">Registration</h1>
-    <form action="register" method="POST" style="text-align: center;">
-        {% crsf_token %}
-        <div>
-            <label for="firstName">First name</label><br>
-            <input type="text" name="firstName" id="email"><br><br>
-            <label for="lastName">Last name</label><br>
-            <input type="text" name="lastName" id="email"><br><br>
-            <label for="email">Email</label><br>
-            <input type="email" name="" id="email"><br><br>
-            <label for="gitHub">GitHub Portfolio</label><br>
-            <input type="text" name="gitHub" id="email"><br><br>
-            <label for="userName">User Name</label><br>
-            <input type="text" name="userName" id="email"><br><br>
-            <label for="password">Password</label><br>
-            <input type="password" name="password" id="email"><br><br>
-            <label for="confirmPwd">Confirm Password</label><br>
-            <input type="password" name="confirmPwd" id="email"><br><br><br>
-        </div>
-        <input type="submit" value="Register" id="" class="button">
 
-    </form>
-</div>
-<style>
-    input{
-        text-align: center;
-    }
-</style>
+
+{% block title%}
+WizCode-Registration Page
+{% endblock%}
+
+
+<!-- pip install django-crispy-form
+add cripsy_form to the list of installed apps in the settings
+load crispy_forms_tags in the HTML
+add the |crispy or |as_crispy_field
+
+-->
+{% block content%}
+{%load crispy_forms_tags %}
+    <div class="" align="center" style="width:100%; padding-top:100px; text-align:center;">
+        <h1 align="center">Registration</h1>
+        <form action="register" method="POST" style="text-align: center;">{% csrf_token%}
+            {{ register_form|crispy }}
+            <!-- <div>
+                <label for="firstName">First name</label><br>
+                <input type="text" name="firstName" id="email"><br><br>
+                <label for="lastName">Last name</label><br>
+                <input type="text" name="lastName" id="email"><br><br>
+                <label for="email">Email</label><br>
+                <input type="email" name="email" id="email"><br><br>
+                <label for="gitHub">GitHub Portfolio</label><br>
+                <input type="text" name="gitHub" id="email"><br><br>
+                <label for="userName">User Name</label><br>
+                <input type="text" name="userName" id="email"><br><br>
+                <label for="password">Password</label><br>
+                <input type="password" name="password" id="email"><br><br>
+                <label for="confirmPwd">Confirm Password</label><br>
+                <input type="password" name="confirmPwd" id="email"><br><br><br>
+            </div> -->
+            <input type="submit" value="Register" id="" class="button">
+            
+        </form>
+        <p>If you alreaady have an account, <a href="" style="color:#051749;">Login</a> instead.</p>
+    </div>
+    <style>
+        input{
+            text-align: center;
+        }
+    </style>
 {% endblock %}
